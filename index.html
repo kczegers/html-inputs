@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <!-- set the character set -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- first step to a responsive site -->
+    <title>HTML Skeleton</title>
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!-- Your styles should be called here -->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      	<![endif]-->
+  </head>
+
+  <body>
+    <!-- YOUR CONTENT GOES HERE -->
+    <h1>Is an unlimited MetroCard worth it for you?</h1>
+
+    <form id="favorite-pulldown">
+      <h2>What is your favorite way to commute?</h2>
+      <p>Select your favorite</p>
+      <select name="favorite-pulldown">
+        <option value="Subway">Subway</option>
+        <option value="Bus">Bus</option>
+        <option value="Car">Car</option>
+        <option value="Bike">Bike</option>
+      </select>
+
+
+    </form>
+
+    <form id="commute-input">
+      <h2>How many times do you take the bus or subway each week?</h2>
+      <p>Trips per week <input type="number" min="0" max="100" /> </p>
+    </form>
+
+    <form id="time-radio">
+      <h2>How long is your commute?</h2>
+      <input type="radio" name="commute" value="15" checked> 15 minutes<br />
+      <input type="radio" name="commute" value="30"> 16-30 minutes<br />
+      <input type="radio" name="commute" value="45"> 31-45 minutes <br />
+      <input type="radio" name="commute" value="60"> 46-1 hour<br />
+      <input type="radio" name="commute" value="61"> Over one hour<br />
+
+    </form>
+
+
+
+    <!-- the jQuery library. You need this to be able to use jQuery ($) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Your javascript should be called here -->
+  </body>
+
+</html>
